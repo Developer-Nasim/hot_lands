@@ -1,0 +1,384 @@
+/* Big screen :1200px. */
+@media (min-width: 1501px) and (max-width: 1800px) {
+    section.panama-area img.line-snap { 
+        left: 42%; 
+    }
+    section.Amenidades-area img.snaps { 
+        left: 60%; 
+    }
+    .contact-area img.tryangle { 
+        left: 37%;
+    }
+
+
+
+
+
+
+} 
+@media (min-width: 1200px) and (max-width: 1500px) {
+    section.panama-area img.line-snap { 
+        left: 35%; 
+    }
+    section.Decider-area img.line-snap { 
+        left: 34%;
+    }
+    section.Amenidades-area img.snaps { 
+        left: 53%; 
+    }
+    .contact-area img.tryangle { 
+        left: 47%;
+    }
+
+
+
+
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .panama-wrp a { 
+        margin-bottom: 20px;
+    }
+    .panama-wrp h1 {
+        font-size: 40px; 
+        line-height: 48.5px;
+        margin-bottom: 15px;
+    }
+    .panama-wrp p {
+        max-width: 360px;
+        line-height: 18.52px;
+        margin-bottom: 20px;
+    } 
+    .panama-wrp form input { 
+        height: 25px; 
+        margin-bottom: 5px;
+        border-radius: 5px;
+        padding-left: 15px; 
+        padding-top: 0px;
+    }
+    .select-items div, .select-selected { 
+        height: 25px; 
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding-left: 15px;  
+        padding-top: 5px;
+        line-height: 19px;
+    }
+    section.panama-area img.line-snap { 
+        left: 35%;  
+    }
+    section.Decider-area img.line-snap {  
+        left: 35%;
+    }
+    ul#myTab li a { 
+        font-size: 18px;
+        line-height: 32.33px; 
+    } 
+    ul#myTab li a b { 
+        font-size: 34px; 
+    }
+    ul#myTab li { 
+        margin: 0 20px;
+    }
+    ul#myTab {
+        margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    .amenidades-wrp ul li { 
+        line-height: 30px;
+        padding-left: 22px; 
+    }
+    section.Amenidades-area img.snaps { 
+        left: 50%;  
+    }
+    .contact-wrp {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+    .contact-area img.tryangle { 
+        left: 43%;
+    }
+  
+
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    section.panama-area img.snape-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    section.panama-area:after {
+        display: block;
+    }
+    section.panama-area .container {
+        position: relative;
+        z-index: 3;
+    }
+    .Decider-wrp {
+        max-width: 100%;
+        margin: auto;
+        padding-top: 140px;
+        padding-bottom: 140px;
+        position: relative;
+        z-index: 2;
+    }
+    section.Decider-area img.snap-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    section.Decider-area:after{
+        display: block;
+    }
+    .Decider-wrp p {
+        line-height: 18.52px;
+        color: #fff;
+    }
+    ul#myTab li a { 
+        font-size: 18px;
+        line-height: 28.33px;  
+    }
+    ul#myTab li a b {
+        display: block;
+        font-size: 32px; 
+    }
+    ul#myTab li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    section.Modelo-area img.tryangle { 
+        bottom: 7%;
+        left: 3%;
+    }
+    .contact-wrp {
+        padding-top: 65px;
+        padding-bottom: 50px;
+    } 
+    .contact-wrp b {
+        margin-bottom: 10px; 
+    }
+    .contact-wrp a { 
+        margin-bottom: 10px;
+    }
+    .contact-area img.snape-img {
+        position: unset;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: 100%;
+    }
+    .contact-area img.tryangle{
+        display: none;
+    }
+    section.Amenidades-area { 
+        padding-top: 50px;
+        padding-bottom: 70px; 
+    }
+    .amenidades-wrp h2 { 
+        font-size: 36px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .amenidades-wrp ul li {
+        display: block;
+        color: #fefefe;
+        text-transform: capitalize;
+        line-height: 26px;
+        padding-left: 20px;
+        position: relative;
+    }
+    section.Amenidades-area img.snaps { 
+        left: 59%; 
+    }
+    section.Modelo-area { 
+        padding-top: 50px;
+        padding-bottom: 60px; 
+    }
+ 
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .panama-wrp h1 {
+        font-size: 32px;
+        color: #fff;
+        line-height: 33.5px;
+        margin-bottom: 20px;
+    }
+    .panama-wrp a {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .panama-wrp p { 
+        color: #fff;
+    }
+    .Decider-wrp h3 {
+        font-size: 28px;
+        color: #fff;
+        margin-bottom: 20px;
+        line-height: 26.5px; 
+    } 
+    section.panama-area img.snape-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    section.panama-area:after {
+        display: block;
+    }
+    section.panama-area .container {
+        position: relative;
+        z-index: 3;
+    }
+    ul#myTab li a:after { 
+        top: 85%; 
+        transform: translate(-50%, -50%) rotate(45deg) scale(.6); 
+    }
+    .Decider-wrp {
+        max-width: 100%;
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    section.Decider-area img.snap-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    section.Decider-area:after{
+        display: block;
+    }
+    .Decider-wrp p {
+        line-height: 18.52px;
+        color: #fff;
+    }
+    ul#myTab li a {
+        font-size: 14px;
+        line-height: 22.33px;
+    }
+    ul#myTab li a b { 
+        font-size: 26px; 
+    }
+    ul#myTab li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    section.Modelo-area img.tryangle {
+        bottom: -1%;
+        left: 30%;
+        transform: scale(.5);
+    }
+    .contact-wrp {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+    .contact-wrp b {
+        margin-bottom: 10px; 
+    }
+    .contact-wrp a { 
+        margin-bottom: 10px;
+    }
+    .contact-area img.snape-img {
+        position: unset;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: 100%;
+    }
+    .contact-area img.tryangle{
+        display: none;
+    }
+    footer a img {
+        width: 70px !IMPORTANT;
+        height: auto;
+    }
+    section.Amenidades-area { 
+        padding-top: 50px;
+        padding-bottom: 70px; 
+    }
+    .amenidades-wrp h2 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+    .amenidades-wrp ul li {
+        display: block;
+        color: #fefefe;
+        text-transform: capitalize;
+        line-height: 26px;
+        padding-left: 20px;
+        position: relative;
+    }
+    section.Amenidades-area img.snaps {
+        left: 63%;
+        bottom: 0%;
+    }
+    ul#myTab {
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    section.Modelo-area img.snap-top{
+        display: none;
+    }
+    section.Modelo-area { 
+        padding-top: 30px; 
+    }
+
+    .model-content h4 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .model-content li {
+        line-height: 30px; 
+        padding-left: 20px;
+    }
+    section.Amenidades-area img.snape-img{
+        display: none;
+    }
+    .lists ul {
+        min-width: 150px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .theme-btn { 
+        font-size: 14px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
